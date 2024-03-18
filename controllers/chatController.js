@@ -7,7 +7,7 @@ const path = require("path");
 const uuidv4 = require("uuid/v4");
 const multer = require("multer");
 
-// Check File Type
+// Check File Type comment to add 
 function checkFileType(file, cb) {
   // Allowed ext
   const filetypes = /jpeg|jpg|png|gif/;
